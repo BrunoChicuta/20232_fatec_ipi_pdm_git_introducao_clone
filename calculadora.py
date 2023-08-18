@@ -7,3 +7,7 @@ def subtrair(a, b):
 def multiplicar(a,b):
   return a * b
 
+def dividir(a,b):
+  if  b != 0:
+    return a // b
+  print('O denominador deve ser diferente de 0')
